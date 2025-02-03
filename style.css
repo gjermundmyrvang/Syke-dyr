@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500;600;700;900&family=Kanit:wght@100;400;500;600;700;800&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Russo One, sans-serif;
+    flex-direction: column;
+}
+
+/*------------------------- HEADER ----------------------*/
+
+header {
+    background: #1a1a1d;
+    min-height: 63px;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+header .logo {
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo-text {
+    margin: 13px;
+    font-family: Russo One, sans-serif;
+    color: rgb(230, 230, 230);
+}
+
+header ul {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+    
+}
+header ul li {
+    float: left;
+    position: relative;
+}
+
+header ul li a {
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: ease 0.3s;
+    color: rgb(230, 230, 230);
+}
+
+header ul li a:hover {
+    background-color: rgba(114, 243, 153, 0.659);
+}
+
+header .menu-toggle {
+    display: none;
+  }
+
+/*------------------------- </HEADER ----------------------*/
+
+/*------------------------- LISTER ----------------------*/
+.liste {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 20px;  
+    padding-left: 20px;
+}
+
+.liste p {
+    padding: 3px;
+    font-size: 18px;
+    border-bottom: 1px solid #b4b4b4;
+}
+/*------------------------- </LISTER ----------------------*/
+
+
+/*------------------------- DYR ----------------------*/
+
+.dyr-container {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dyr-container h2 {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.dyr {
+    margin-top: 10px;
+    flex-direction: row;
+    position: relative;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 1rem 1rem 1rem -1rem #7a7a7a;
+    background-color: rgb(244, 244, 244);
+}
+
+.dyr img {
+    width: 60%;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px 0px 0px 5px;
+    object-fit: cover;
+}
+
+.dyr h3 {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.dyr .liste p {
+    font-size: 25px;
+   
+}
+
+.dyr a {
+    text-align: center;
+    background-color: #1a1a1d;
+    color: rgb(230, 230, 230);
+    padding: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-decoration: none;
+    border-radius: 3px;
+    position: absolute; /* Posisjonerer lenken absolutt innenfor .container */
+    bottom: 0; /* Plasserer lenken nederst */
+    right: 0; /* Plasserer lenken til høyre */
+    margin: 10px; /* Legg til ønsket margin */
+    transition: 0.3s ease;
+
+}
+
+.dyr a:hover {
+    background-color: #4d4d52;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+/*------------------------- </DYR ----------------------*/
+
+
+/*------------------------- INNHOLD DYR ----------------------*/
+.stort-bilde {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+.stort-bilde img {
+    margin-top: 5px;
+    width: 80%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 3px;
+    box-shadow: 1rem 1rem 1rem -1rem #acacac;
+  }
+
+.innhold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.innhold h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 80px;
+    text-align: center;
+  }
+  
+.innhold-produksjon {
+    width: 80%;
+    
+  }
+  
+.innhold-produksjon p {
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+/*------------------------- //INNHOLD DYR ----------------------*/
+.gmp-map {
+    height: 100%;
+  }
+
+ #spissmus {
+    height: 500px;
+ } 
+
+
+ .lyd button {
+    background-color: #1a1a1d;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 3px;
+    margin-top: 10px;
+    transition: ease 0.3s;
+
+ }
+
+ .lyd button:hover {
+    background-color: #777779;
+    cursor: pointer;
+    transition: ease 0.3s;
+
+
+ }
+
+
+/*------------------------- FOOTER ----------------------*/
+
+footer {
+    margin-top: 50px;
+    background-color: #1a1a1d;
+    bottom: 0;
+    width: 100%;
+    color: rgba(114, 243, 153, 0.659);
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+
+
+
+#world {
+    background-color: #2c2c31;
+}
+
+.verden-oversikt {
+    align-items: center;
+    justify-content: center;
+   
+}
+.verden-oversikt svg {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.verden-oversikt h1 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+svg path {
+    fill: #0cbcc8;
+    stroke: #1a1a1d;
+    stroke-width: .25;
+    transition: 0.3s ease;
+
+}
+
+svg path:hover {
+    fill: #9a9a9a;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#name {
+    position: absolute;
+    background-color: #7a7a7a;
+    width: fit-content;
+    opacity: 0;
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 3px;
+    font-size: 1.5 rem;
+
+}
+
+@media only screen and (max-width: 1750px) {
+   
+    .dyr {
+        flex-direction: column;
+    }
+
+    .dyr img {
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .liste {
+        margin-bottom: 100px;
+    }
+
+    .dyr a {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+    .innhold h1 {
+        font-size: 40px;
+    }
+
+    .innhold-produksjon p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .stort-bilde img {
+        height: 350px;
+        width: 90%;
+    }
+    
+    .dyr img {
+        height: 250px;
+    }
+
+    #spissmus {
+        height: 250px;
+    }
+
+    .dyr-container h2 {
+        font-size: 25px;
+    }
+
+    .dyr-container h3 {
+        font-size: 15px;
+    }
+    .dyr .liste p {
+        font-size: 20px;
+    }
+   
+}
+
+@media only screen and (max-width: 490px) {
+
+    .innhold h1 {
+        font-size: 20px;
+    }
+
+    .innhold-produksjon p {
+        font-size: 10px;
+    }
+
+  
+    footer p {
+        font-size: 10px;
+        
+    }
+
+    .dyr img {
+        height: 150px;
+    }
+
+    .dyr-container h2 {
+        font-size: 15px;
+    }
+
+    #spissmus {
+        height: 200px;
+    }
+
+    .dyr .liste p {
+        font-size: 15px;
+    }
+
+    .stort-bilde img {
+        height: 250px;
+        width: 90%;
+    }
+
+ 
+   
+}
+
+
